@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de avaliação de aprovação escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="container">
+    <h1>Insira sua nota final e sua frequência escolar</h1>
+    <input type="number" max="10" id="nota" placeholder="Nota final">
+    <input type="number" max="100" id="frequência" placeholder="Frequência">
+    <br>
+    <br>
+      <button onclick="avaliação()" id="botao_">Verificar</button>
+     <p id="resultado"></p>
+    <button onclick="reiniciar()">reiniciar</button>
+    </div>
+       <script src="app.js"></script>
+</body>
+</html>  
