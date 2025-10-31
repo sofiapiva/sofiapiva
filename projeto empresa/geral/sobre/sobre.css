@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #222;
+}
+
+header {
+  background-color: #000000; 
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  height: 80px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+header h1 {
+  color: #ffffff; 
+  font-size: 2rem;
+}
+
+.sobre-nos {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-left: 6px solid #FFA500;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+footer {
+  background-color: #FFA500;
+  color: #000;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.95rem;
+}
+.frase-final{
+  font-size: 1.2rem;
+  color: #FFA500;
+  display: flex;
+  gap: 15px;
+
+}
+.frase-inicial{
+  font-size: 1.2rem;
+  color: #FFA500;
+}
+.camisa-logo{
+  width: 100px;
+
+}
+
+.link_voltar {
+  position: fixed;
+  top: 10px;
+  left: 15px;
+  background-color: #FFA500;
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.moça{
+  width: 300px;
+  
+}
+.material{
+  width: 300px;
+}
