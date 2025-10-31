@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>Calculadora de descontos - fruteira</title>
+</head>
+<body>
+  
+        <a href="/geral/tela inicial/inicial.html" ><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+  <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+  <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+</svg></a>
+
+
+    <div class="conteudo">
+    <br>
+    <div class="calcular">
+   <h1>Calculadora de descontos</h1>
+   <br>
+   <b>
+   <h3>Instruções</h3><br>
+   <lu>
+    <li>Selecione qual fruta você deseja;</li>
+    <li>Adicione a quantidade em kg;</li>
+    <li>Clique em "calcular";</li>
+   </lu></b></div>
+     <br><br>
+         <div class="menu">
+                <li><a href="/geral/descontos/descontos.html">Ofertas disponíveis</a></li >
+    </div>
+     <br>
+    <img src="/geral/img/morango-apontando.png" alt="morango apontando" class="morango">
+
+    <select name="fruta" id="fruta">
+        <b>
+        <option value="" selected disabled>Selecione a fruta</option>
+        <option value="MC">Maça</option>
+        <option value="MO">Morango</option>  
+    </select>
+    <br>
+
+
+    <br>
+     <input type="number" max="10" placeholder="Adicione o valor em kg" id="kg">
+     <br>
+     <p id="resultado"></p>
+     <br>
+     <div class="menu2">
+    <button onclick="calcularDesconto()">Calcular</button>
+     <button onclick="reiniciar()">Reiniciar</button id="botao" style.display="none">
+</b></div>
+  
+    <script src="./calculadora.js"></script>
+
+</body>
+</html>
+</html>

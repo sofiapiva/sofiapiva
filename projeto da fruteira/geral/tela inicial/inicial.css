@@ -1,0 +1,60 @@
+*{
+    margin: 10px #000;
+    padding: 15px;
+
+}
+ body{
+      background-color: rgb(255, 255, 255);
+      font-family:'Times New Roman', Times, serif;
+      background-color: rgb(151, 168, 170);
+ }
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin-top: 70px;
+    border-radius: 50px;
+    
+   
+
+}
+
+.menu a {
+    color: rgb(167, 19, 19);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(151, 168, 170);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    
+
+
+}
+
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    
+}
+
+.morangoCelular{
+    width: 150px;
+    display: flex;
+ 
+}
+ h1 {
+  color: #df4024;
+  text-shadow: 2px 2px #ffd1c1;
+}
+
+
