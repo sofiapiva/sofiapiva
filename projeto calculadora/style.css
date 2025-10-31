@@ -1,0 +1,58 @@
+  body {
+      background-image: url('fundo-matematic.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+          /* backdrop-filter: blur(3px); */
+    }
+   
+   
+   
+   .container button {
+      padding: 20px;
+      color: rgb(0, 0, 0);
+      background-color: rgb(165, 164, 163);
+      border-radius: 10px;
+      font-weight: bold;
+      align-items: center;
+      font-size: 25px;
+      margin-left: 0px;
+   }
+
+   button:hover {
+      background-color: rgb(145, 143, 141);
+   }
+
+   .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 100px;
+      gap: 5px;
+      box-shadow: 2px #fff;
+   }
+
+   .container div {
+      display: flex;
+   }
+
+   #visor {
+      width: 250px;
+      height: 40px;
+      margin-bottom: 10px;
+      font-size: 20px;
+      text-align: right;
+      padding: 20x;
+      border: 2px solid #333;
+      border-radius: 8px;
+      background-color: white;
+   }
+
+   .container svg {
+      width: 16px;
+
+   }
+   .bt{
+      width: 180px;
+   }
