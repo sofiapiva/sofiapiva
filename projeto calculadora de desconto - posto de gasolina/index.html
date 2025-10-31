@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Posto de gasolina - descontos</title>
+</head>
+<body>
+    <div class="tudo">
+        <h2>Simulador de Economia no Abastecimento</h2>
+        <div class="valores">
+            <br>
+            <h3>Gasolina:</h3>
+            <h4>R$2,50</h4>
+            <h3>Álcool:</h3>
+            <h4>R$1,90</h4>
+            <br>
+        </div>
+        
+        <h3>Descontos disponíveis</h3>
+        <lu>
+            <b>
+                <!-- o <b> é para destacar/ficar em negrito o texto -->
+                <li>Álcool: até 20 litros, desconto de 3% por cada litro;
+                    Acima de 20 litros, desconto de 5% a cada litro
+                </li>
+                <br>
+                <li>Gasolina: até 20 litros, desconto de 4% por cada litro;
+                    Acima de 20 litros, desconto de 6% a cada litro</li>
+        </lu></b>
+        <br>
+        <select name="combustivel" id="combustivel">
+            <option value="" selected disabled>selecione o combustivel</option>
+            <!-- disabled é para não permitir a seleção do item -->
+            <option value="G">Gasolina</option>
+            <option value="A">Álcool</option>
+        </select>
+
+        <br><br>
+        <input type="number" id="litros" placeholder="Quantidade de litros">
+        <p id="resultado"></p>
+        <button onclick="calcularDesconto()" id="botao2">Calcular Desconto</button>
+        <button class="botao-reiniciar" style= "display:none;" id= "botao" onclick="reiniciarBotao()">Reiniciar</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

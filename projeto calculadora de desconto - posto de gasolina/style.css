@@ -1,0 +1,52 @@
+
+.tudo{
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.valores{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    border-radius: 9px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    gap: 20px;
+}
+
+button{
+     padding: 10px 15px;
+     cursor: pointer;
+     /* o cursor fica como um ponteiro, e o pointer é um cursor que indica que o botão pode ser clicado (a maozinha)*/
+     border: none;
+     font-size: 15px;
+     border-radius: 18px;
+     background-color: #ccc;
+     font-family:Arial, Helvetica, sans-serif;
+}
+
+label{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+select {
+    padding: 10px;
+    border-radius: 18px;
+}
+.botao-reiniciar{
+    margin-top: 15px;
+}
